@@ -1,7 +1,7 @@
-#########################################
-#	Created by Alexis MORTELIER	#
-#	All Rights Reserved		#
-#########################################
+//#################################
+//#	Created by Alexis MORTELIER	#
+//#		All Rights Reserved		#
+//#################################
 
 #include <stdio.h>
 #include <stdlib.h>
