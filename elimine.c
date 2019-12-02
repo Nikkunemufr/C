@@ -1,8 +1,7 @@
-//#################################
-//#	Created by Alexis MORTELIER	#
-//#		All Rights Reserved		#
-//#################################
-
+//#########################################
+//#	Created by Alexis MORTELIER       #
+//#         All Rights Reserved           #
+//#########################################
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -17,7 +16,7 @@ int elimine(int *tab, int c, int n){
 	return n;
 }
 
-void affiche_de_pd(int  *tab, int n){
+void affichage_jolie(int  *tab, int n){
  	for (int i=0;i<n;i++)
 		printf("%d",*(tab+i));
 	printf("\n");
@@ -29,5 +28,5 @@ int main (){
 	int n = 9;
 
 	n = elimine(A,9,n);
-	affiche_de_pd(A,n);
+	affichage_jolie(A,n);
 }
